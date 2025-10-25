@@ -8,22 +8,13 @@ a[aria-label="Workspace"] {
   font-size: 0 !important;
 }
 
-.header .title::after {
-  content: "PriVchaT";
-  font-size: 16px;
-  color: inherit;
-  font-weight: normal;
-  display: inline-block;
-}
+/* Opcjonalnie: jeśli chcesz zmienić nazwę zamiast ukrywać — np. na "AI Assistant" */
+ .sidebar-header .sidebar-title::after {
+    content: "AI Assistant" !important;
+    display: inline !important;
+} 
 
-/* Zastąp "Open WebUI" w wersji (np. w footerze) */
-.footer .version {
-  font-size: 0 !important;
-}
-
-.footer .version::after {
-  content: "DrunkCatDesign 2025";
-  font-size: 12px;
-  color: inherit;
-  display: inline-block;
+/* 2. Ukryj nazwę i wersję w dolnej części okna chatu */
+.chat-footer .footer-text {
+    display: none !important;
 }
