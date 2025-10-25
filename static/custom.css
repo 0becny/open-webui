@@ -1,4 +1,8 @@
-/* Ukryj "Workspaces" (Obszar roboczy) dla wszystkich nie-adminów */
-body:not(.role-admin) [data-menu-item="workspace"] {
+#sidebar-workspace-button,
+a[aria-label="Obszar roboczy"],
+a[aria-label="Workspace"] {
   display: none !important;
+}
+body {
+  background: red !important;
 }
