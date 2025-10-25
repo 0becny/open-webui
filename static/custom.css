@@ -3,6 +3,27 @@ a[aria-label="Obszar roboczy"],
 a[aria-label="Workspace"] {
   display: none !important;
 }
-body {
-  background: red !important;
+/* Zastąp "Open WebUI" w nagłówku — jeśli tekst jest statyczny */
+.header .title {
+  font-size: 0 !important;
+}
+
+.header .title::after {
+  content: "PriVchaT";
+  font-size: 16px;
+  color: inherit;
+  font-weight: normal;
+  display: inline-block;
+}
+
+/* Zastąp "Open WebUI" w wersji (np. w footerze) */
+.footer .version {
+  font-size: 0 !important;
+}
+
+.footer .version::after {
+  content: "DrunkCatDesign 2025";
+  font-size: 12px;
+  color: inherit;
+  display: inline-block;
 }
