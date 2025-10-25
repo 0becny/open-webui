@@ -1,0 +1,4 @@
+/* Ukryj "Workspaces" (Obszar roboczy) dla wszystkich nie-adminów */
+body:not(.role-admin) [data-menu-item="workspace"] {
+  display: none !important;
+}
