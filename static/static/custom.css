@@ -3,6 +3,5 @@ a[aria-label="Obszar roboczy"],
 a[aria-label="Workspace"] {
   display: none !important;
 }
-body {
-  background: red !important;
-}
+
+
