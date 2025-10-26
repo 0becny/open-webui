@@ -6,10 +6,10 @@ a[aria-label="Workspace"] {
 
 /* static/static/custom.css */
 /* --- Ustaw tło na główny kontener czatu --- */
-.main-container,
-#chat-container,
-.chat-container,
-.main-content {
+.app,
+#app,
+.layout,
+.layout-content {
     background-image: url('./background.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
@@ -60,4 +60,5 @@ a[aria-label="Workspace"] {
         background-attachment: scroll !important;
     }
 }
+
 
